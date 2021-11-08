@@ -66,7 +66,8 @@ L'idea è quindi quella di procedere in questo modo:
     <img src="https://latex.codecogs.com/gif.latex?P(x)&space;=&space;\frac{1}{det(\Sigma)^{\frac{1}{2}}&space;\cdot&space;2&space;\pi^{\frac{d}{2}}}&space;\cdot&space;e^{-\frac{1}{2}&space;\cdot&space;(x-\mu)^t&space;\cdot&space;\Sigma^{-1}&space;\cdot&space;(x-\mu)}" title="P(x) = \frac{1}{det(\Sigma)^{\frac{1}{2}} \cdot 2 \pi^{\frac{d}{2}}} \cdot e^{-\frac{1}{2} \cdot (x-\mu)^t \cdot \Sigma^{-1} \cdot (x-\mu)}" />
     </p>
     
-    Una possibile esempio nel caso di pattern a 2 dimensioni è:
+    Un possibile esempio nel caso di pattern a 2 dimensioni è il seguente (supponendo di avere 2 classi, si hanno 2 distribuzioni multinormali.
+    Ogni distribuzione ritorna per ogni punto del piano la propria probabilità condizionata):
     
       <p align="center">
     <img width="450px" src="MD_image/moreClass.png" title="gauss2" />
