@@ -73,8 +73,6 @@ L'idea è quindi quella di procedere in questo modo:
     <img width="450px" src="MD_image/moreClass.png" title="gauss2" />
     </p>
     
-    (Ogni singola gaussiana ritorna un valore di probabilità per un pattern nel piano:)
-    
      <p align="center">
     <img width="450px" src="MD_image/splitGauss.png" title="gauss3" />
     </p>
