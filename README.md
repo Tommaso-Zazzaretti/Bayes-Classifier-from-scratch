@@ -13,7 +13,7 @@ Il classificatore deve, dato in input un pattern **Xi**, restituire la corretta 
 Per calcolare la giusta classe di appartenenza di un pattern Xi, si calcolano delle probabilità che dato in input un pattern Xi esso appartenga a una classe Wi (si fa per tutte le possibili classi, dopo di che si sceglie la classe con la probabilità più alta) tramite il **Teorema di Bayes**:
 
 <p align="center">
-<img width="250px" src="https://latex.codecogs.com/gif.latex?P(W_{i}|&space;X&space;)&space;=&space;\frac{P(X|w_{i})&space;\cdot&space;P(w_{i})}{P(X)}" title="P(W_{i}| X ) = \frac{P(X|w_{i}) \cdot P(w_{i})}{P(X))}" />
+<img width="250px" src="https://latex.codecogs.com/gif.latex?P(w_{i}|&space;X&space;)&space;=&space;\frac{P(X|w_{i})&space;\cdot&space;P(w_{i})}{P(X)}" title="P(W_{i}| X ) = \frac{P(X|w_{i}) \cdot P(w_{i})}{P(X))}" />
 </p>
 
   - ***P(wi)***: Ovvero la **Probabilità a Priori** che un pattern qualsiasi scelto arbitrariamente appartenga alla classe Wi. Si calcola facilmente conteggiando gli elementi di una classe rispetto agli elementi totali. 
