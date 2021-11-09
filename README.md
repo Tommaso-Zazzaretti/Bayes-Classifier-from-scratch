@@ -24,7 +24,7 @@ Per calcolare la giusta classe di appartenenza di un pattern Xi, si calcolano de
  
   - ***P(X)***: Ovvero la **Probabilità Assoluta** di classificare un determinato pattern X. Il suo valore tiene conto di tutti i possibili eventi che portano ad avere un pattern X come pattern scelto (fungendo quindi da costante di normalizzazione essendo al denominatore).
    
-    Per avere X come pattern scelto devono concatenarsi 2 eventi: deve essere scelto un pattern di una classe Wi (ovvero la **P(Wi)** ) e data la classe Wi deve essere proprio X (ovvero la **P(X|Wi)** ). La concatenazione di eventi corrisponde al prodotto delle probabilità.
+    Per avere X come pattern scelto devono concatenarsi 2 eventi: deve essere scelto un pattern di una classe Wi (evento che si può verificare con probabilità **P(Wi)** ) e dato un pattern generico della classe Wi deve essere proprio X (evento condizionato con probabilità **P(X|Wi)** ). La concatenazione di eventi corrisponde al prodotto delle probabilità.
     Siccome un pattern X può idealmente appartenere a tutte le possibili classi, si ha una sequenza di possibili eventi disgiunti. Quindi si somma su tutte le classi ottenendo la seguente formula:
     
     <p align="center">
