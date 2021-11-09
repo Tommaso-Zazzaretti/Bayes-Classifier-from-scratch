@@ -37,7 +37,7 @@ Per calcolare la giusta classe di appartenenza di un pattern Xi, si calcolano de
 
 ## Stima delle Probabilità Condizionate ##
 
-Come detto nella precedente sottosezione, le probabilità condizionate non si conoscono. Per stimarle si parte dall'ipotesi che elementi appartenenti a una stessa classe siano in qualche modo simili, e che quindi esistano delle distribuzioni gaussiane di probabilità tra i vari elementi del dataset suddivisi per classi.
+Come detto nella precedente sottosezione, le probabilità condizionate non si conoscono. Per stimarle si parte dall'ipotesi che elementi appartenenti a una stessa classe siano in qualche modo simili, e che quindi esistano delle distribuzioni gaussiane di probabilità che legano la posizione di un pattern X = [ x1,x2, ... xn]  in uno spazio N-dimensionale a un valore di probabilità che quel pattern sia proprio un pattern scelto dall'insieme degli elementi di una classe Wi.
 
 L'idea è quindi quella di procedere in questo modo:
  
