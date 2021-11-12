@@ -6,7 +6,7 @@ Si dispone di un dataset composto da un insieme di elementi *X*.
 
 Ad ogni pattern **Xi** è associata un'etichetta **Yi** che ne indica la classe di appartenenza.
 
-Il classificatore deve, dato in input un pattern **Xi**, restituire la corretta etichetta **Yi** (tra tutte quelle possibili) facendo quindi un'operazione di **classificazione**.
+Il classificatore deve, dato in input un pattern **Xi** mai visto in precedenza, restituire la corretta etichetta **Yi** (tra tutte quelle possibili) facendo quindi un'operazione di **classificazione**.
 
 ## Elementi teorici ##
 
